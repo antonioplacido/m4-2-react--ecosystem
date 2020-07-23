@@ -1,15 +1,14 @@
 import React from "react";
 
 import Header from "../components/Header";
+import About from "../components/About";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const About = () => {
-  return <span>About</span>;
-};
+import styled from "styled-components";
 
 const Homepage = () => {
-  return <span>Homepage</span>;
+  return <span>Home</span>;
 };
 
 const App = () => {
