@@ -11,12 +11,12 @@ const HomeBlock = styled.p`
 
 const BrowseItems = styled.p`
   align-items: center;
+  padding-left: 8vh;
 `;
 
 const Browsing = styled.p`
   font-weight: Bold;
   padding-top: 60px;
-  padding-left: 8vh;
 `;
 
 const Homepage = () => {

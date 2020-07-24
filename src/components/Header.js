@@ -7,6 +7,7 @@ import styled from "styled-components";
 const NavHeader = styled.h1`
   font-family: sans-serif;
   align-items: center;
+  display: block;
 `;
 
 const NavBar = styled.nav`
@@ -20,6 +21,7 @@ const HotLinks = styled.div`
   padding: 25px;
   position: absolute;
   right: 16px;
+  display: block;
 `;
 
 const NavLink = styled(Link)`

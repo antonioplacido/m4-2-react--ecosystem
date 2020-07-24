@@ -5,6 +5,7 @@ import styled from "styled-components";
 const EntireBlock = styled.p`
   font-size: 35px;
   float: left;
+  padding-left: 8vh;
 `;
 
 const FirstLine = styled.p``;
