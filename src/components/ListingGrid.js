@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 const ListedItemDescrips = styled.span`
   font-weight: bold;
+  display: block;
 `;
 
 const ListedItemName = styled.span``;
@@ -20,9 +21,9 @@ const ListedItemLatin = styled.span`
 
 const StupidFruitPictures = styled.img`
   border: 4px orange solid;
-  border-radius: 40%;
-  width: 300px;
-  height: 300px;
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
 `;
 
 const TheULConst = styled.ul`
@@ -30,15 +31,15 @@ const TheULConst = styled.ul`
   padding: 45px;
   display: inline-block;
   text-align: center;
-  width: 25%;
+  max-width: 40vh;
 `;
 
 const FruitBlock = styled.div`
-  width: 50%;
+  min-width: 33%;
   border: 1px gray solid;
   border-radius: 25%;
-  padding: 60px;
-  height: 400px;
+  height: 40vh;
+  display: block;
 `;
 
 const ListingGrid = () => {
