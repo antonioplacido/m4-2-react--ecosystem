@@ -1,6 +1,6 @@
 import React from "react";
 import { items } from "../data";
-
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const ListedItemDescrips = styled.span`
@@ -8,7 +8,9 @@ const ListedItemDescrips = styled.span`
   display: block;
 `;
 
-const ListedItemName = styled.span``;
+const ListedItemName = styled(Link)`
+  text-decoration: none;
+`;
 
 const ListedItemLatin = styled.span`
   font-style: italic;
@@ -46,7 +48,9 @@ const ListingGrid = () => {
           <FruitBlock>
             <StupidFruitPictures src={item.imageSrc}></StupidFruitPictures>
             <ListedItemDescrips>
-              <ListedItemName>{item.name}</ListedItemName>
+              <ListedItemName to={`/items/${item.id}`}>
+                {item.name}
+              </ListedItemName>
               <ListedItemLatin>{item.latinName}</ListedItemLatin>
             </ListedItemDescrips>
           </FruitBlock>

@@ -18,6 +18,9 @@ const App = () => {
         <Route exact path="/about">
           <About />
         </Route>
+        <Route path="/items/:itemId">
+          <ItemDetails />
+        </Route>
       </Switch>
     </Router>
   );

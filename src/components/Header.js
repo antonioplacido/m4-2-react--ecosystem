@@ -12,16 +12,16 @@ const NavHeader = styled.h1`
 
 const NavBar = styled.nav`
   font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-space-between;
+  min-width: 10vh;
+  display: inline-flex;
 `;
 
 const HotLinks = styled.div`
-  padding: 25px;
   position: absolute;
   right: 16px;
+  padding-top: 3vh;
   display: block;
+  display: flex;
 `;
 
 const NavLink = styled(Link)`
@@ -29,8 +29,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   color: blueviolet;
   font-weight: bold;
-  font-size: 30px;
-  text-align: right;
+  display: block;
 `;
 
 // const Link = styled;
