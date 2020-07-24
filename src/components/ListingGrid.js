@@ -14,9 +14,6 @@ const ListedItemLatin = styled.span`
   font-style: italic;
   color: #b1b1b1;
   display: block;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
 `;
 
 const StupidFruitPictures = styled.img`
@@ -28,18 +25,16 @@ const StupidFruitPictures = styled.img`
 
 const TheULConst = styled.ul`
   list-style-type: none;
-  padding: 45px;
+  padding-top: 25px;
   display: inline-block;
   text-align: center;
   max-width: 40vh;
 `;
 
 const FruitBlock = styled.div`
-  min-width: 33%;
   border: 1px gray solid;
-  border-radius: 25%;
   height: 40vh;
-  display: block;
+  padding-top: 40px;
 `;
 
 const ListingGrid = () => {

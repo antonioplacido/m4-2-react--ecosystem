@@ -16,6 +16,7 @@ const BrowseItems = styled.p`
 const Browsing = styled.p`
   font-weight: Bold;
   padding-top: 60px;
+  padding-left: 8vh;
 `;
 
 const Homepage = () => {
