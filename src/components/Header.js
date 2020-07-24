@@ -17,10 +17,9 @@ const NavBar = styled.nav`
 `;
 
 const HotLinks = styled.div`
-  /* padding-top: 45px; */
   padding: 25px;
-  position: fixed;
-  right: 5%;
+  position: absolute;
+  right: 16px;
 `;
 
 const NavLink = styled(Link)`

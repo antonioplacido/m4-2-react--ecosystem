@@ -1,11 +1,10 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 import styled from "styled-components";
 
 const EntireBlock = styled.p`
-  font-size: 40px;
+  font-size: 35px;
+  float: left;
 `;
 
 const FirstLine = styled.p``;
@@ -20,7 +19,7 @@ const About = (props) => {
   return (
     <EntireBlock>
       <FirstLine>
-        Fruit emporium is founded on a very simple principle:
+        Fruit Emporium is founded on a very simple principle:
         <TheBold> Fruit is good.</TheBold>
       </FirstLine>
       <TheRest>

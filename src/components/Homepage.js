@@ -1,15 +1,32 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 import styled from "styled-components";
+
+import ListingGrid from "../components/ListingGrid";
+
+const HomeBlock = styled.p`
+  font-size: 35px;
+  float: left;
+`;
+
+const BrowseItems = styled.p`
+  align-items: center;
+`;
+
+const Browsing = styled.p`
+  font-weight: Bold;
+  padding-top: 60px;
+`;
 
 const Homepage = () => {
   return (
-    <span>
-      Fruit Emporium sells the finest fruits from this world and beyond. Browse
-      items
-    </span>
+    <HomeBlock>
+      <BrowseItems>
+        Fruit Emporium sells the finest fruits from this world and beyond.
+        <Browsing>Browse items</Browsing>
+      </BrowseItems>
+      <ListingGrid></ListingGrid>
+    </HomeBlock>
   );
 };
 
